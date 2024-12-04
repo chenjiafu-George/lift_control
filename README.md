@@ -76,14 +76,7 @@
 
 ### 系统架构图
 
-```mermaid
-graph TD
-    A[移动端APP] -->|BLE/UWB| B[电梯控制模块]
-    B -->|RS485| C[电梯系统]
-    A -->|HTTPS| D[云服务]
-    D -->|WebSocket| B
-    E[管理后台] -->|REST API| D
-    F[UWB基站] -->|定位数据| B
+
 
 ## 🚀 快速开始
 
