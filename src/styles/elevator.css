@@ -1,0 +1,35 @@
+/* 引入 Tailwind 的基础样式 */
+@tailwind base;
+/* 引入组件样式 */
+@tailwind components;
+/* 引入工具类 */
+@tailwind utilities;
+
+/* 自定义基础样式 */
+@layer base {
+    html {
+        font-family: Inter, system-ui, sans-serif;
+    }
+
+    h1 {
+        @apply text-2xl font-bold;
+    }
+}
+
+/* 自定义组件类 */
+@layer components {
+    .btn {
+        @apply px-4 py-2 rounded-lg font-medium transition-colors;
+    }
+
+    .btn-primary {
+        @apply bg-blue-500 text-white hover:bg-blue-600;
+    }
+}
+
+/* 自定义工具类 */
+@layer utilities {
+    .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+}
