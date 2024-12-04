@@ -1,4 +1,4 @@
-# Smart Elevator Control System 📱🛗
+# Smart Elevator Control System 📱
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![React](https://img.shields.io/badge/React-18.x-blue.svg)
