@@ -94,14 +94,17 @@
 ```bash
 git clone https://github.com/yourusername/smart-elevator-control.git
 cd smart-elevator-control
+```
 
 2. **安装依赖**
 ```bash
 npm install
+```
 3. **配置环境**
 ```bash
 cp .env.example .env
 # 编辑 .env 文件配置必要的环境变量
+```
 4. **运行项目**
 ```bash
 # 启动开发服务器
@@ -112,4 +115,6 @@ npm run android
 
 # iOS
 npm run ios
+```
+
 
